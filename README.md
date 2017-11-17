@@ -3,11 +3,11 @@ Laravel Auth Boilerplate for Shopify App
 
 ## Installation
 ### Install
-`composer require culturekings/shopify-app-auth-laravel`
+`composer require onepointsoftware/shopify-app-auth-laravel`
 
 ### Add to Providers
 Add to Providers in config/app.php
-`CultureKings\ShopifyAuth\ShopifyAuthServiceProvider::class`
+`OnePointSoftware\ShopifyAuth\ShopifyAuthServiceProvider::class`
 
 ### Publish
 `php artisan vendor:publish`
@@ -23,7 +23,7 @@ Route::group(
     [
         'prefix' => 'shopify-apps',
         'namespace' => 'ShopifyApps',
-        'middleware' => 'CultureKings\ShopifyAuth\Http\Middleware\ShopifyAuthCheck'
+        'middleware' => 'OnePointSoftware\ShopifyAuth\Http\Middleware\ShopifyAuthCheck'
     ],
     function () {
         Route::get('appname', 'AppnameController@getDashboard');
