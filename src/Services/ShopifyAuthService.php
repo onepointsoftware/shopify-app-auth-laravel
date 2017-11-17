@@ -1,14 +1,14 @@
 <?php
 
-namespace CultureKings\ShopifyAuth\Services;
+namespace OnePointSoftware\ShopifyAuth\Services;
 
-use CultureKings\ShopifyAuth\Models\ShopifyApp;
-use CultureKings\ShopifyAuth\Models\ShopifyAppUsers;
-use CultureKings\ShopifyAuth\Models\ShopifyScriptTag;
-use CultureKings\ShopifyAuth\Models\ShopifyWebhooks;
-use CultureKings\ShopifyAuth\Models\ShopifyUser;
+use OnePointSoftware\ShopifyAuth\Models\ShopifyApp;
+use OnePointSoftware\ShopifyAuth\Models\ShopifyAppUsers;
+use OnePointSoftware\ShopifyAuth\Models\ShopifyScriptTag;
+use OnePointSoftware\ShopifyAuth\Models\ShopifyWebhooks;
+use OnePointSoftware\ShopifyAuth\Models\ShopifyUser;
 use Illuminate;
-use CultureKings\ShopifyAuth\ShopifyApi;
+use OnePointSoftware\ShopifyAuth\ShopifyApi;
 
 /**
  * Class ShopifyAuthService.

@@ -1,5 +1,5 @@
 {
-    "name": "culturekings/shopify-app-auth-laravel",
+    "name": "onepointsoftware/shopify-app-auth-laravel",
     "description": "Shopify OAuth App for Laravel 5.x",
     "type": "library",
     "license": "MIT",
@@ -13,8 +13,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "CultureKings\\ShopifyAuth\\": "src/",
-            "CultureKings\\Tests\\": "tests/"
+            "OnePointSoftware\\ShopifyAuth\\": "src/",
+            "OnePointSoftware\\Tests\\": "tests/"
         }
     },
     "require": {

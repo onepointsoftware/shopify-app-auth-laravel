@@ -1,6 +1,6 @@
 <?php
 
-namespace CultureKings\ShopifyAuth\Models;
+namespace OnePointSoftware\ShopifyAuth\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

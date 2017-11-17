@@ -1,6 +1,6 @@
 <?php
 
-namespace CultureKings\ShopifyAuth\Facades;
+namespace OnePointSoftware\ShopifyAuth\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

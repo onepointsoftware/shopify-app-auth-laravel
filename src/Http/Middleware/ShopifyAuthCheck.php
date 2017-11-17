@@ -1,10 +1,10 @@
 <?php
 
-namespace CultureKings\ShopifyAuth\Http\Middleware;
+namespace OnePointSoftware\ShopifyAuth\Http\Middleware;
 
-use CultureKings\ShopifyAuth\Models\ShopifyUser;
-use CultureKings\ShopifyAuth\ShopifyApi;
-use CultureKings\ShopifyAuth\Services\ShopifyAuthService;
+use OnePointSoftware\ShopifyAuth\Models\ShopifyUser;
+use OnePointSoftware\ShopifyAuth\ShopifyApi;
+use OnePointSoftware\ShopifyAuth\Services\ShopifyAuthService;
 use Closure;
 
 class ShopifyAuthCheck

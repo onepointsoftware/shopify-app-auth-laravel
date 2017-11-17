@@ -1,6 +1,6 @@
 <?php
 
-namespace CultureKings\ShopifyAuth\Exceptions;
+namespace OnePointSoftware\ShopifyAuth\Exceptions;
 
 use Exception;
 

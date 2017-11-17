@@ -1,5 +1,5 @@
 <?php
-namespace CultureKings\ShopifyAuth;
+namespace OnePointSoftware\ShopifyAuth;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -27,7 +27,7 @@ class ShopifyAuthServiceProvider extends ServiceProvider
 
         $this->loadMigrationsFrom(__DIR__.'/Migrations');
 
-        $this->app->alias('ShopifyAuth', 'CultureKings\ShopifyAuth\Facades\ShopifyApi');
+        $this->app->alias('ShopifyAuth', 'OnePointSoftware\ShopifyAuth\Facades\ShopifyApi');
     }
 
     /**

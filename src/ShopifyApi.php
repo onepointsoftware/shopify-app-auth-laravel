@@ -1,8 +1,8 @@
 <?php
 
-namespace CultureKings\ShopifyAuth;
+namespace OnePointSoftware\ShopifyAuth;
 
-use CultureKings\ShopifyAuth\Exceptions\ShopifyAuthApiException;
+use OnePointSoftware\ShopifyAuth\Exceptions\ShopifyAuthApiException;
 use GuzzleHttp\Client;
 
 class ShopifyApi
