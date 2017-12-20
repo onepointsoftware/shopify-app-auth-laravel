@@ -126,6 +126,11 @@ class ShopifyApi
         $this->parseResponse($response);
         $responseBody = $this->responseBody($response);
 
+        list($bottom, $top) = explode("/", $this->getHeader('X-Shopify-Shop-Api-Call-Limit'));
+        if ($bottom >= 75) {
+            sleep(10);
+        }
+        
         if (isset($responseBody['errors']) || $response->getStatusCode() >= 400){
             $errors = is_array($responseBody['errors'])
                 ? json_encode($responseBody['errors'])
